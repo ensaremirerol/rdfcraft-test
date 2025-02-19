@@ -7,7 +7,7 @@ Your goal is to achieve the following mapping:
 ## General Information
 
 - You can use RDFCraft documentation to help you:
-  [HERE](maastrichtu-ids.github.io/RDFCraft/)
+  [HERE](https://maastrichtu-ids.github.io/RDFCraft/)
 
 - Resulting RDF file is in [output.ttl](output.ttl)
 
