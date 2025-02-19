@@ -1,0 +1,107 @@
+@prefix aidava: <https://rdf.aidava.eu/resource/> .
+@prefix atc: <https://www.whocc.no/atc_ddd_index/?> .
+@prefix icd-10: <https://biomedit.ch/rdf/sphn-resource/icd-10-gm/> .
+@prefix loinc: <https://biomedit.ch/rdf/sphn-resource/loinc/> .
+@prefix rml: <http://w3id.org/rml/> .
+@prefix snomed: <http://snomed.info/id/> .
+@prefix ucum: <https://biomedit.ch/rdf/sphn-resource/ucum/> .
+
+<https://rdf.aidava.eu/resource/measurement/1> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Measurement>;
+  <https://biomedit.ch/rdf/sphn-ontology/AIDAVA/hasPatient> <https://rdf.aidava.eu/resource/patient/1063>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasCode> icd-10:E11.9;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasMeasurementDateTime> "2025-01-27"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasQuantity> <https://rdf.aidava.eu/resource/measurement/quantity/1> .
+
+<https://rdf.aidava.eu/resource/measurement/10> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Measurement>;
+  <https://biomedit.ch/rdf/sphn-ontology/AIDAVA/hasPatient> <https://rdf.aidava.eu/resource/patient/1078>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasCode> icd-10:I10;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasMeasurementDateTime> "2025-02-08"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasQuantity> <https://rdf.aidava.eu/resource/measurement/quantity/10> .
+
+<https://rdf.aidava.eu/resource/measurement/2> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Measurement>;
+  <https://biomedit.ch/rdf/sphn-ontology/AIDAVA/hasPatient> <https://rdf.aidava.eu/resource/patient/1005>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasCode> icd-10:R50.9;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasMeasurementDateTime> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasQuantity> <https://rdf.aidava.eu/resource/measurement/quantity/2> .
+
+<https://rdf.aidava.eu/resource/measurement/3> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Measurement>;
+  <https://biomedit.ch/rdf/sphn-ontology/AIDAVA/hasPatient> <https://rdf.aidava.eu/resource/patient/1079>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasCode> icd-10:R00.0;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasMeasurementDateTime> "2025-02-19"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasQuantity> <https://rdf.aidava.eu/resource/measurement/quantity/3> .
+
+<https://rdf.aidava.eu/resource/measurement/4> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Measurement>;
+  <https://biomedit.ch/rdf/sphn-ontology/AIDAVA/hasPatient> <https://rdf.aidava.eu/resource/patient/1068>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasCode> icd-10:Z99.89;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasMeasurementDateTime> "2025-02-17"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasQuantity> <https://rdf.aidava.eu/resource/measurement/quantity/4> .
+
+<https://rdf.aidava.eu/resource/measurement/5> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Measurement>;
+  <https://biomedit.ch/rdf/sphn-ontology/AIDAVA/hasPatient> <https://rdf.aidava.eu/resource/patient/1061>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasCode> icd-10:I10;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasMeasurementDateTime> "2025-02-10"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasQuantity> <https://rdf.aidava.eu/resource/measurement/quantity/5> .
+
+<https://rdf.aidava.eu/resource/measurement/6> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Measurement>;
+  <https://biomedit.ch/rdf/sphn-ontology/AIDAVA/hasPatient> <https://rdf.aidava.eu/resource/patient/1096>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasCode> icd-10:Z99.89;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasMeasurementDateTime> "2025-02-09"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasQuantity> <https://rdf.aidava.eu/resource/measurement/quantity/6> .
+
+<https://rdf.aidava.eu/resource/measurement/7> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Measurement>;
+  <https://biomedit.ch/rdf/sphn-ontology/AIDAVA/hasPatient> <https://rdf.aidava.eu/resource/patient/1037>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasCode> icd-10:I10;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasMeasurementDateTime> "2025-02-05"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasQuantity> <https://rdf.aidava.eu/resource/measurement/quantity/7> .
+
+<https://rdf.aidava.eu/resource/measurement/8> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Measurement>;
+  <https://biomedit.ch/rdf/sphn-ontology/AIDAVA/hasPatient> <https://rdf.aidava.eu/resource/patient/1001>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasCode> icd-10:E11.9;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasMeasurementDateTime> "2025-01-21"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasQuantity> <https://rdf.aidava.eu/resource/measurement/quantity/8> .
+
+<https://rdf.aidava.eu/resource/measurement/9> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Measurement>;
+  <https://biomedit.ch/rdf/sphn-ontology/AIDAVA/hasPatient> <https://rdf.aidava.eu/resource/patient/1058>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasCode> icd-10:R00.0;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasMeasurementDateTime> "2025-02-16"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasQuantity> <https://rdf.aidava.eu/resource/measurement/quantity/9> .
+
+<https://rdf.aidava.eu/resource/measurement/quantity/1> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Quantity>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasUnit> ucum:mg%2FdL;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasValue> 5.648E1 .
+
+<https://rdf.aidava.eu/resource/measurement/quantity/10> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Quantity>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasUnit> ucum:mg%2FdL;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasValue> 8.191E1 .
+
+<https://rdf.aidava.eu/resource/measurement/quantity/2> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Quantity>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasUnit> ucum:mm%5BHg%5D;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasValue> 7.852E1 .
+
+<https://rdf.aidava.eu/resource/measurement/quantity/3> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Quantity>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasUnit> ucum:mg%2FdL;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasValue> 1.0193E2 .
+
+<https://rdf.aidava.eu/resource/measurement/quantity/4> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Quantity>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasUnit> ucum:%2Fmin;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasValue> 8.112E1 .
+
+<https://rdf.aidava.eu/resource/measurement/quantity/5> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Quantity>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasUnit> ucum:mm%5BHg%5D;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasValue> 7.231E1 .
+
+<https://rdf.aidava.eu/resource/measurement/quantity/6> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Quantity>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasUnit> ucum:%25;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasValue> 1.5741E2 .
+
+<https://rdf.aidava.eu/resource/measurement/quantity/7> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Quantity>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasUnit> ucum:%2Fmin;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasValue> 1.6002E2 .
+
+<https://rdf.aidava.eu/resource/measurement/quantity/8> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Quantity>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasUnit> ucum:Cel;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasValue> 1.4965E2 .
+
+<https://rdf.aidava.eu/resource/measurement/quantity/9> a <https://biomedit.ch/rdf/sphn-ontology/sphn#Quantity>;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasUnit> ucum:mg%2FdL;
+  <https://biomedit.ch/rdf/sphn-ontology/sphn#hasValue> 8.439E1 .
